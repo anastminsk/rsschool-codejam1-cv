@@ -239,6 +239,16 @@ figcaption {
   font-size: 1.2rem;
 }
 
+/*SUMMARY*/
+.summary {
+  background-color: #cfc;
+}
+
+.summary .content-body {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+}
 
 /* FOOTER */
 footer {
