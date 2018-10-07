@@ -227,6 +227,17 @@ figcaption {
   color: #737373;
 }
 
+/*CONTACT*/
+.contact {
+  background-color: #fff;
+}
+
+.contact .content-body {
+  width: 60%;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 1.2rem;
+}
 
 
 /* FOOTER */
