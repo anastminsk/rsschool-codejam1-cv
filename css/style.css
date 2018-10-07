@@ -189,6 +189,31 @@ figcaption {
   font-size: 1.2rem;
 }
 
+/*PROJECTS*/
+.projects {
+  background-color: #cfc;
+}
+
+.projects .content-body ul {
+  margin: 0;
+}
+
+.project-card {
+  display: flex;
+  justify-content: space-between;
+  background-color: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 5px;
+  margin-bottom: 30px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.08), 0 3px 6px rgba(0, 0, 0, 0.15);
+}
+
+.project-image img {
+  display: block;
+  width: 650px;
+  height: 300px;
+}
+
 
 
 /* FOOTER */
