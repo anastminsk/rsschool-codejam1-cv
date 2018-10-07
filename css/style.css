@@ -200,7 +200,7 @@ figcaption {
 
 .project-card {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-start;
   background-color: #fff;
   border: 1px solid rgba(0, 0, 0, 0.125);
   border-radius: 5px;
@@ -208,10 +208,23 @@ figcaption {
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.08), 0 3px 6px rgba(0, 0, 0, 0.15);
 }
 
+.project-card:last-child {
+  margin-bottom: 0;
+}
+
 .project-image img {
   display: block;
   width: 650px;
   height: 300px;
+}
+
+.project-content {
+  margin-top: 20px;
+  margin-left: 15px;
+}
+
+.project-content h3 {
+  color: #737373;
 }
 
 
